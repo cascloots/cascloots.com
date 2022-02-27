@@ -10,32 +10,17 @@ const Case = () => {
     </div>
     <Slider />
     <div className="case-info">
-      <div className="content-case"></div>
-    element({
-              type: 'div', className: 'case-info', children: [
-                element({
-                  type: 'div', className: 'contentCase', children: [
-                    element({
-                      type: 'ul', className: 'case-roles', children: [
-                        element({ type: 'li', className: 'case-project', content: `${item.project}` }),
-                        element({ type: 'li', className: 'case-role', content: `${item.role}` }),
-                        element({
-                          type: 'li', className: 'case-demo', children: [
-                        element({ type: 'a', className: 'underline', href: `${item.demo.link}`, content: `${item.demo.text}` })
-                      ]
-                    }),
-                      ]
-                    }),
-                    element({
-                      type: 'p', className: 'case-description', children: [
-                      element({
-                          type: 'p', className: 'case-intro', children: [
-                      element({ type: 'span', className: 'case-year', content: `${item.year} - ` }),
-                      element({ type: 'span', content: `${item.description_intro}` }),
-                    ]
-                  }),
-                    element({ type: 'p', content: `${item.description_work}` })
-                  ]
+      <div className="content-case">
+        <ul className="case-roles">
+          <li className="case-project"></li>
+          <li className="case-role"></li>
+          <li className="case-demo"><a className="underline"></a></li>
+        </ul>
+        <p className="case-description">
+          <span className="case-year"></span> - 
+          <span className="content"></span>
+        </p>
+      </div>
     </div>
     </section>
   )
