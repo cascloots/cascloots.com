@@ -25,6 +25,7 @@ const Footer = () => {
               <a
                 class="underline"
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.instagram.com/cascloots/"
               >
                 Instagram
@@ -34,6 +35,7 @@ const Footer = () => {
               ⟶
               <a class="underline"
               target="_blank"
+              rel="noreferrer"
               href="https://www.behance.net/CasCloots">
                 Behance
               </a>
@@ -43,6 +45,7 @@ const Footer = () => {
               <a
                 class="underline"
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.linkedin.com/in/cascloots"
               >
                 Linkedin
@@ -57,6 +60,7 @@ const Footer = () => {
               <a
               class="underline"
               target="_blank"
+              rel="noreferrer"
               href="https://www.acehardware.com/">
                 Ace Hardware
               </a>
@@ -65,14 +69,15 @@ const Footer = () => {
               <a
               class="underline"
               target="_blank"
+              rel="noreferrer"
               href="https://www.acehardware.com/">
                 RedBull
               </a>
             </li>
-            <li><a class="underline" target="_blank" href="https://www.huawei.com/">Huawei</a></li>
-            <li><a class="underline" target="_blank" href="https://www.omen.com/">HP Omen</a></li>
-            <li><a class="underline" target="_blank" href="https://www.akzonobel.com/">Akzonobel</a></li>
-            <li><a class="underline" target="_blank" href="https://mightyhive.com/">MightyHive</a></li>
+            <li><a class="underline" target="_blank" rel="noreferrer" href="https://www.huawei.com/">Huawei</a></li>
+            <li><a class="underline" target="_blank" rel="noreferrer" href="https://www.omen.com/">HP Omen</a></li>
+            <li><a class="underline" target="_blank" rel="noreferrer" href="https://www.akzonobel.com/">Akzonobel</a></li>
+            <li><a class="underline" target="_blank" rel="noreferrer" href="https://mightyhive.com/">MightyHive</a></li>
           </ul>
           <ul class="list">
             <li>+ small businesses</li>

@@ -1,5 +1,6 @@
-import React from "react";
-import Slider from ".../component/slider";
+import React from "react"
+
+import Slider from "./slider"
 
 const Case = () => {
   return (
@@ -14,7 +15,13 @@ const Case = () => {
         <ul className="case-roles">
           <li className="case-project"></li>
           <li className="case-role"></li>
-          <li className="case-demo"><a className="underline"></a></li>
+          <li className="case-demo"><a
+              class="underline"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.acehardware.com/">
+                Download the app
+              </a></li>
         </ul>
         <p className="case-description">
           <span className="case-year"></span> - 
