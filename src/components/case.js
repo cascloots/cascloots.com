@@ -9,8 +9,18 @@ const Case = () => {
       <h1 class="case-title"><span class="case-client">Microsoft</span> - <span>Get to know Azure, Turn your ideas into innovation with trusted Azure products and services</span></h1>
     </div>
     <Slider />
-    <div>
-      
+    <div className="case-info">
+      <div className="content-case">
+        <ul className="case-roles">
+          <li className="case-project"></li>
+          <li className="case-role"></li>
+          <li className="case-demo"><a className="underline"></a></li>
+        </ul>
+        <p className="case-description">
+          <span className="case-year"></span> - 
+          <span className="content"></span>
+        </p>
+      </div>
     </div>
     </section>
   )

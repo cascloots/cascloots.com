@@ -2,16 +2,23 @@ import React from "react";
 
 const Header = () => {
   return (
-    <section class="hero">
-      <div class="content">
-        <h2 class="title">Hi, there</h2>
-        <h1 class="intro">
-          Cas Cloots is a designer working across digital and graphic design
-          with a passion for photography and motion<br />
-          Available for hire <a href="mailto:cloots.cas@gmail.com">⟶ cloots.cas@gmail.com</a>
-        </h1>
-      </div>
-    </section>
+    <nav>
+      <ul class="navigation">
+        <div class="navigationContent">
+          <li>
+            <div class="logo"></div>
+          </li>
+          <li class="navigationItem">
+            <a
+              href="https://drive.google.com/file/d/1iTDclx-ydoHKKwY_etVLjgx125GrJG9X/view?usp=sharing"
+              target="_blank"
+              rel="noopener"
+              >Resume</a
+            >
+          </li>
+        </div>
+      </ul>
+    </nav>
   )
 }
 
