@@ -3,14 +3,16 @@ import React from "react"
 import Layout from "../components/layout"
 import Case from "../components/case"
 
+import * as indexStyles from '../styles/index.scss'
+
 
 const IndexPage = () => {
   return(
       <Layout>
-        <section class="hero">
+        <section className={indexStyles.hero}>
           <div class="content">
-            <h2 class="title">Hi, there</h2>
-            <h1 class="intro">
+            <h2 className={indexStyles.title}>Hi, there</h2>
+            <h1 className={indexStyles.intro}>
               Cas Cloots is a designer working across digital and graphic design
               with a passion for photography and motion<br />
               Available for hire <a href="mailto:cloots.cas@gmail.com">⟶ cloots.cas@gmail.com</a>

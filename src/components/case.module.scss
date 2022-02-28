@@ -1,0 +1,51 @@
+.caseHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.caseInfo {
+  display: flex;
+  justify-content: center;
+}
+
+.caseRoles {
+  width: 50%;
+  line-height: 180%;
+  padding-bottom: 9rem;
+  padding-top: 6rem;
+}
+
+.caseProject:before {
+  font-weight: 600;
+  content: "PROJECT: ";
+}
+
+.caseRole:before {
+  font-weight: 600;
+  content: "ROLE: ";
+}
+
+.caseDemo:before {
+  font-weight: 600;
+  content: "DEMO: ";
+}
+
+.caseDescription {
+  width: 50%;
+  line-height: 180%;
+  padding-bottom: 9rem;
+  padding-top: 6rem;
+}
+
+.caseYear {
+  color: #9b9b9b;
+}
+
+.caseIntro {
+  margin-bottom: 1.5rem;
+}
+
+
+.caseClient {
+  font-weight: 600;
+}
