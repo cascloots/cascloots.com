@@ -1,0 +1,11 @@
+#myBtn {
+  position: fixed;
+  bottom: 0;
+  /* margin: 60px; */
+  padding: 60px;
+  right: 0;
+  z-index: 99;
+  cursor: pointer;
+  display: none;
+  mix-blend-mode: difference;
+}

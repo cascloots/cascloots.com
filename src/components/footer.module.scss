@@ -1,0 +1,54 @@
+.footer {
+  padding-top: 9rem;
+  padding-bottom: 6rem;
+  padding: 2rem;
+
+  color: white;
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+
+  line-height: 150%;
+}
+
+.footerContent {
+  display: flex;
+}
+
+.footerItem {
+  width: 35%;
+  margin-right: 20rem;
+}
+
+.footerItem  p {
+  padding-bottom: 3rem;
+}
+
+.list {
+  padding-top: 3rem;
+}
+
+.underline {
+  border-bottom: 1px solid currentColor;
+  display: inline-block;
+  line-height: 1.2;
+  color: currentColor;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.credits {
+  padding-top: 6rem;
+  display: flex;
+  color: #9b9b9b;
+}
+
+.credits p {
+  width: 35%;
+  margin-right: 20rem;
+}
+
+.content {
+  width: 66.7vw;
+}

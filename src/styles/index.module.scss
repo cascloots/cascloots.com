@@ -1,0 +1,23 @@
+.hero {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  padding-top: 12rem;
+}
+
+.intro {
+  padding-bottom: 120px;
+  width: 66.7vw;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.intro a {
+  transition: all 0.2s ease;
+}
+
+.content {
+  width: 66.7vw;
+}

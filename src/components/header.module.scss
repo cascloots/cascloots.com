@@ -1,0 +1,32 @@
+/* Imports */
+@use '../styles/colors' as c;
+@use '../styles/transitions' as s;
+@use '../styles/typography' as t;
+
+.navigation {
+  padding-top: 9rem;
+  padding-bottom: 7rem;
+  font-size: 1.8rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.navigationContent {
+  display: flex;
+  width: 66.7vw;
+  justify-content: space-between;
+}
+
+.navigationItem a {
+  text-decoration: none;
+  color: black;
+  transition: s.$hover;
+}
+
+.logo {
+  width: 34px;
+  height: 34px;
+  background-color: black;
+  transform: rotate(45deg);
+}
