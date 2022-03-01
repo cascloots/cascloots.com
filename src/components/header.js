@@ -11,12 +11,9 @@ const Header = () => {
             <div className={headerStyles.logo}></div>
           </li>
           <li className={headerStyles.navigationItem}>
-            <a
-              href="https://drive.google.com/file/d/1iTDclx-ydoHKKwY_etVLjgx125GrJG9X/view?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
-              >Resume</a
-            >
+            <a href="https://drive.google.com/file/d/1iTDclx-ydoHKKwY_etVLjgx125GrJG9X/view?usp=sharing" target="_blank" rel="noreferrer">
+              Resume
+            </a>
           </li>
         </div>
       </ul>

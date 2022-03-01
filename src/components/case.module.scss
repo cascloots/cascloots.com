@@ -45,7 +45,19 @@
   margin-bottom: 1.5rem;
 }
 
-
 .caseClient {
   font-weight: 600;
+}
+
+.content {
+  width: 66.7vw;
+}
+
+.contentCase {
+  width: 66.7vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  // padding-left: 5rem;
+  // padding-right: 5rem;
 }

@@ -8,9 +8,10 @@ const Case = () => {
   return (
   <section>
       <div className={caseStyles.caseHeader}>
+        <div className={caseStyles.content}>
         <h2 className={caseStyles.caseCategory}>↓ Web Design ↓</h2>
         <h1 className={caseStyles.caseTitle}><span className={caseStyles.caseClient}>Microsoft</span> - <span>Get to know Azure, Turn your ideas into innovation with trusted Azure products and services</span></h1>
-      </div>
+
       <Slider />
       <div className={caseStyles.caseInfo}>
         <div className={caseStyles.contentCase}>
@@ -32,6 +33,8 @@ const Case = () => {
               The creative concept was to create an inspiring content hub to explore and have users seamlessly guided to their best solution. To maintain the best user experience I had to make the design accommodate different scenarios while maintaining the overall aesthetic.
           </p>
         </div>
+      </div>
+      </div>
       </div>
     </section>
   )
