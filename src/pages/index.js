@@ -50,6 +50,7 @@ const IndexPage = () => {
         <Case />
         <Case />
         <Case />
+        <Case />
       </Layout >
   )
 }
